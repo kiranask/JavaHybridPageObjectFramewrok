@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.vedantu.test.sanity1_testsuite.Signup">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.vedantu.test.sanity1_testsuite.Signup -->
+      <class name="com.vedantu.test.sanity1_testsuite.ListUsersSession">
+        <methods>
+          <include name="ListUserSchedule"/>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.vedantu.test.sanity1_testsuite.ListUsersSession -->
+      <class name="com.vedantu.test.sanity1_testsuite.StudentLogin">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.vedantu.test.sanity1_testsuite.StudentLogin -->
+      <class name="com.vedantu.test.sanity1_testsuite.TeacherLogin">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.vedantu.test.sanity1_testsuite.TeacherLogin -->
+      <class name="com.vedantu.test.sanity1_testsuite.TakeSession">
+        <methods>
+          <include name="TakingSession"/>
+        </methods>
+      </class> <!-- com.vedantu.test.sanity1_testsuite.TakeSession -->
+      <class name="com.vedantu.test.sanity1_testsuite.HomePageValidation">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.vedantu.test.sanity1_testsuite.HomePageValidation -->
+      <class name="com.vedantu.test.sanity1_testsuite.AdminLogin">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.vedantu.test.sanity1_testsuite.AdminLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

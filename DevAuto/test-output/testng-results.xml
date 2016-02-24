@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Administrator Login is Successful]]>
+    </line>
+    <line>
+      <![CDATA[Selcted The Student]]>
+    </line>
+    <line>
+      <![CDATA[Selcted The Teacher]]>
+    </line>
+    <line>
+      <![CDATA[Session Scheduled]]>
+    </line>
+    <line>
+      <![CDATA[Test Pass : Session Schedule]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="162792" started-at="2015-12-05T06:54:05Z" finished-at="2015-12-05T06:56:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="162792" started-at="2015-12-05T06:54:05Z" finished-at="2015-12-05T06:56:48Z">
+      <class name="com.vedantu.test.sanity1_testsuite.ListUsersSession">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.vedantu.test.sanity1_testsuite.ListUsersSession@5b464ce8]" name="preCondition" is-config="true" duration-ms="119380" started-at="2015-12-05T12:24:05Z" finished-at="2015-12-05T12:26:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="ListUserSchedule()[pri:0, instance:com.vedantu.test.sanity1_testsuite.ListUsersSession@5b464ce8]" name="ListUserSchedule" duration-ms="43158" started-at="2015-12-05T12:26:05Z" finished-at="2015-12-05T12:26:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Administrator Login is Successful]]>
+            </line>
+            <line>
+              <![CDATA[Selcted The Student]]>
+            </line>
+            <line>
+              <![CDATA[Selcted The Teacher]]>
+            </line>
+            <line>
+              <![CDATA[Session Scheduled]]>
+            </line>
+            <line>
+              <![CDATA[Test Pass : Session Schedule]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ListUserSchedule -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.vedantu.test.sanity1_testsuite.ListUsersSession@5b464ce8]" name="postCondition" is-config="true" duration-ms="236" started-at="2015-12-05T12:26:48Z" finished-at="2015-12-05T12:26:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.vedantu.test.sanity1_testsuite.ListUsersSession -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

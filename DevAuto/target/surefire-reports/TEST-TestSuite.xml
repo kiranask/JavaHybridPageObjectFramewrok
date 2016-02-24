@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="298.538" tests="13" errors="0" skipped="0" failures="8">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.65-b01"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/kiransk/Downloads/workspace/Automation Backup/veta/DevAuto"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/kiransk/Downloads/workspace/Automation Backup/veta/DevAuto"/>
+    <property name="java.runtime.version" value="1.8.0_65-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/zd/xg2w7l2d0gjdxh9ck8q3nlzr0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/kiransk/Documents/WebAutomation/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf4143181579366524646.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/kiransk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.10.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/kiransk"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="kiransk"/>
+    <property name="java.class.path" value="/Users/kiransk/Downloads/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_65"/>
+    <property name="java.ext.dirs" value="/Users/kiransk/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/kiransk/Downloads/workspace/Automation Backup/veta/DevAuto/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="HomePageValidations" classname="com.vedantu.test.sanity1_testsuite.HomePageValidation" time="20.835"/>
+  <testcase name="AdministartorLogin" classname="com.vedantu.test.sanity1_testsuite.AdminLogin" time="17.32"/>
+  <testcase name="TeacherLoginTest" classname="com.vedantu.test.sanity1_testsuite.TeacherLogin" time="15.618"/>
+  <testcase name="StudentLoginTest" classname="com.vedantu.test.sanity1_testsuite.StudentLogin" time="26.074"/>
+  <testcase name="GeneralSignup" classname="com.vedantu.test.sanity1_testsuite.Signup" time="97.55"/>
+  <testcase name="ListUserSchedule" classname="com.vedantu.test.sanity1_testsuite.ListUsersSession" time="98.6">
+    <failure message="Element not found in the cache - perhaps the page has changed since it was looked up&#10;Command duration or timeout: 30.19 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;&#10;System info: host: &apos;45.112.138-broadband.acttv.in&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_65&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: f3db915d-5027-fa46-abdf-11b8ca4c077c" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 30.19 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '45.112.138-broadband.acttv.in', ip: '192.168.0.102', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f3db915d-5027-fa46-abdf-11b8ca4c077c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:121)
+	at com.vedantu.test.sanity1_testsuite.ListUsersSession.ListUserSchedule(ListUsersSession.java:44)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '45.112.138-broadband.acttv.in', ip: '192.168.0.102', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:9351)
+	at <anonymous class>.Utils.getElementAt(file:///var/folders/zd/xg2w7l2d0gjdxh9ck8q3nlzr0000gn/T/anonymous1472471088275465824webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8978)
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/zd/xg2w7l2d0gjdxh9ck8q3nlzr0000gn/T/anonymous1472471088275465824webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9979)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/zd/xg2w7l2d0gjdxh9ck8q3nlzr0000gn/T/anonymous1472471088275465824webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/zd/xg2w7l2d0gjdxh9ck8q3nlzr0000gn/T/anonymous1472471088275465824webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/zd/xg2w7l2d0gjdxh9ck8q3nlzr0000gn/T/anonymous1472471088275465824webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+]]></failure>
+    <system-out><![CDATA[Administrator Login is Successful
+]]></system-out>
+  </testcase>
+  <testcase name="ListUserSchedule" classname="com.vedantu.test.sanity1_testsuite.ListUsersSession" time="88.485">
+    <failure message="Element not found in the cache - perhaps the page has changed since it was looked up&#10;Command duration or timeout: 30.15 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;&#10;System info: host: &apos;45.112.138-broadband.acttv.in&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_65&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 713137c5-c3c5-b842-b8b1-bfd0a46bf033" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 30.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '45.112.138-broadband.acttv.in', ip: '192.168.0.102', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 713137c5-c3c5-b842-b8b1-bfd0a46bf033
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:121)
+	at com.vedantu.test.sanity1_testsuite.ListUsersSession.ListUserSchedule(ListUsersSession.java:44)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '45.112.138-broadband.acttv.in', ip: '192.168.0.102', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:9351)
+	at <anonymous class>.Utils.getElementAt(file:///var/folders/zd/xg2w7l2d0gjdxh9ck8q3nlzr0000gn/T/anonymous7778468769958978918webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8978)
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/zd/xg2w7l2d0gjdxh9ck8q3nlzr0000gn/T/anonymous7778468769958978918webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9979)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/zd/xg2w7l2d0gjdxh9ck8q3nlzr0000gn/T/anonymous7778468769958978918webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/zd/xg2w7l2d0gjdxh9ck8q3nlzr0000gn/T/anonymous7778468769958978918webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/zd/xg2w7l2d0gjdxh9ck8q3nlzr0000gn/T/anonymous7778468769958978918webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+]]></failure>
+    <system-out><![CDATA[Following test is failing====ListUserSchedule
+Retrying the test Count is=== 1
+Administrator Login is Successful
+]]></system-out>
+  </testcase>
+  <testcase name="ListUserSchedule" classname="com.vedantu.test.sanity1_testsuite.ListUsersSession" time="80.744">
+    <failure message="Element not found in the cache - perhaps the page has changed since it was looked up&#10;Command duration or timeout: 30.11 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;&#10;System info: host: &apos;45.112.138-broadband.acttv.in&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_65&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 2c7ce9a7-b148-5245-a836-bfaab86d7bf6" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 30.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '45.112.138-broadband.acttv.in', ip: '192.168.0.102', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2c7ce9a7-b148-5245-a836-bfaab86d7bf6
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:121)
+	at com.vedantu.test.sanity1_testsuite.ListUsersSession.ListUserSchedule(ListUsersSession.java:44)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '45.112.138-broadband.acttv.in', ip: '192.168.0.102', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:9351)
+	at <anonymous class>.Utils.getElementAt(file:///var/folders/zd/xg2w7l2d0gjdxh9ck8q3nlzr0000gn/T/anonymous1349383292207702661webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8978)
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/zd/xg2w7l2d0gjdxh9ck8q3nlzr0000gn/T/anonymous1349383292207702661webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9979)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/zd/xg2w7l2d0gjdxh9ck8q3nlzr0000gn/T/anonymous1349383292207702661webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/zd/xg2w7l2d0gjdxh9ck8q3nlzr0000gn/T/anonymous1349383292207702661webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/zd/xg2w7l2d0gjdxh9ck8q3nlzr0000gn/T/anonymous1349383292207702661webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+]]></failure>
+    <system-out><![CDATA[Following test is failing====ListUserSchedule
+Retrying the test Count is=== 2
+Administrator Login is Successful
+]]></system-out>
+  </testcase>
+  <testcase name="ListUserSchedule" classname="com.vedantu.test.sanity1_testsuite.ListUsersSession" time="200.794">
+    <failure message="Element is not currently visible and so may not be interacted with&#10;Command duration or timeout: 30.10 seconds&#10;Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;&#10;System info: host: &apos;45.112.138-broadband.acttv.in&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_65&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: b686d9fd-fec5-624b-b3fe-5fe70f5f5749" type="org.openqa.selenium.ElementNotVisibleException"><![CDATA[org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 30.10 seconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '45.112.138-broadband.acttv.in', ip: '192.168.0.102', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b686d9fd-fec5-624b-b3fe-5fe70f5f5749
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.vedantu.test.sanity1_testsuite.ListUsersSession.ListUserSchedule(ListUsersSession.java:100)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '45.112.138-broadband.acttv.in', ip: '192.168.0.102', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/zd/xg2w7l2d0gjdxh9ck8q3nlzr0000gn/T/anonymous7980252270348239447webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/zd/xg2w7l2d0gjdxh9ck8q3nlzr0000gn/T/anonymous7980252270348239447webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/zd/xg2w7l2d0gjdxh9ck8q3nlzr0000gn/T/anonymous7980252270348239447webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/zd/xg2w7l2d0gjdxh9ck8q3nlzr0000gn/T/anonymous7980252270348239447webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+]]></failure>
+    <system-out><![CDATA[Following test is failing====ListUserSchedule
+Retrying the test Count is=== 3
+Administrator Login is Successful
+Selcted The Student
+Selcted The Teacher
+Inside Catch
+Administrator Login is Successful
+Selcted The Student
+Selcted The Teacher
+Session Scheduled
+Test Pass : Session Schedule
+]]></system-out>
+  </testcase>
+  <testcase name="TakingSession" classname="com.vedantu.test.sanity1_testsuite.TakeSession" time="22.541">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;&#10;System info: host: &apos;45.112.138-broadband.acttv.in&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_65&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.UnreachableBrowserException"><![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '45.112.138-broadband.acttv.in', ip: '192.168.0.102', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: driver.version: ChromeDriver
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:130)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:79)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:175)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:166)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:78)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:170)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:159)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.vedantu.test.sanity1_testsuite.TakeSession.TakingSession(TakeSession.java:60)
+]]></failure>
+    <system-err><![CDATA[/Users/kiransk/Downloads/workspace/Automation Backup/veta/DevAuto/exe/chromedriver.exe: /Users/kiransk/Downloads/workspace/Automation Backup/veta/DevAuto/exe/chromedriver.exe: cannot execute binary file
+Dec 08, 2015 5:35:31 PM org.openqa.selenium.os.UnixProcess checkForError
+SEVERE: org.apache.commons.exec.ExecuteException: Process exited with an error: 126 (Exit value: 126)
+]]></system-err>
+  </testcase>
+  <testcase name="TakingSession" classname="com.vedantu.test.sanity1_testsuite.TakeSession" time="22.299">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;&#10;System info: host: &apos;45.112.138-broadband.acttv.in&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_65&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.UnreachableBrowserException"><![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '45.112.138-broadband.acttv.in', ip: '192.168.0.102', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: driver.version: ChromeDriver
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:130)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:79)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:175)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:166)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:78)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:170)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:159)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.vedantu.test.sanity1_testsuite.TakeSession.TakingSession(TakeSession.java:60)
+]]></failure>
+    <system-out><![CDATA[Following test is failing====TakingSession
+Retrying the test Count is=== 1
+]]></system-out>
+    <system-err><![CDATA[/Users/kiransk/Downloads/workspace/Automation Backup/veta/DevAuto/exe/chromedriver.exe: /Users/kiransk/Downloads/workspace/Automation Backup/veta/DevAuto/exe/chromedriver.exe: cannot execute binary file
+Dec 08, 2015 5:35:53 PM org.openqa.selenium.os.UnixProcess checkForError
+SEVERE: org.apache.commons.exec.ExecuteException: Process exited with an error: 126 (Exit value: 126)
+]]></system-err>
+  </testcase>
+  <testcase name="TakingSession" classname="com.vedantu.test.sanity1_testsuite.TakeSession" time="22.871">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;&#10;System info: host: &apos;45.112.138-broadband.acttv.in&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_65&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.UnreachableBrowserException"><![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '45.112.138-broadband.acttv.in', ip: '192.168.0.102', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: driver.version: ChromeDriver
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:130)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:79)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:175)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:166)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:78)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:170)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:159)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.vedantu.test.sanity1_testsuite.TakeSession.TakingSession(TakeSession.java:60)
+]]></failure>
+    <system-out><![CDATA[Following test is failing====TakingSession
+Retrying the test Count is=== 2
+]]></system-out>
+    <system-err><![CDATA[/Users/kiransk/Downloads/workspace/Automation Backup/veta/DevAuto/exe/chromedriver.exe: /Users/kiransk/Downloads/workspace/Automation Backup/veta/DevAuto/exe/chromedriver.exe: cannot execute binary file
+Dec 08, 2015 5:36:16 PM org.openqa.selenium.os.UnixProcess checkForError
+SEVERE: org.apache.commons.exec.ExecuteException: Process exited with an error: 126 (Exit value: 126)
+]]></system-err>
+  </testcase>
+  <testcase name="TakingSession" classname="com.vedantu.test.sanity1_testsuite.TakeSession" time="23.551">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;&#10;System info: host: &apos;45.112.138-broadband.acttv.in&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_65&apos;&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.remote.UnreachableBrowserException"><![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '45.112.138-broadband.acttv.in', ip: '192.168.0.102', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: driver.version: ChromeDriver
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:130)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:79)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:175)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:166)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:78)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:170)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:159)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.vedantu.test.sanity1_testsuite.TakeSession.TakingSession(TakeSession.java:60)
+]]></failure>
+    <system-out><![CDATA[Following test is failing====TakingSession
+Retrying the test Count is=== 3
+]]></system-out>
+    <system-err><![CDATA[/Users/kiransk/Downloads/workspace/Automation Backup/veta/DevAuto/exe/chromedriver.exe: /Users/kiransk/Downloads/workspace/Automation Backup/veta/DevAuto/exe/chromedriver.exe: cannot execute binary file
+Dec 08, 2015 5:36:39 PM org.openqa.selenium.os.UnixProcess checkForError
+SEVERE: org.apache.commons.exec.ExecuteException: Process exited with an error: 126 (Exit value: 126)
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Failed suite [Suite]]">
+  <test name="Test(failed)(failed)">
+    <classes>
+      <class name="com.vedantu.test.sanity1_testsuite.ListUsersSession">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.vedantu.test.sanity1_testsuite.ListUsersSession -->
+      <class name="com.vedantu.test.sanity1_testsuite.Signup">
+        <methods>
+          <include name="postCondition"/>
+          <include name="GeneralSignup"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.vedantu.test.sanity1_testsuite.Signup -->
+      <class name="com.vedantu.test.sanity1_testsuite.AdminLogin">
+        <methods>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.vedantu.test.sanity1_testsuite.AdminLogin -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

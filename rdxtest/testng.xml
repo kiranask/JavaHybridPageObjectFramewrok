@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  <test name="Test">
+    <classes>
+      <class name="com.vedantu.test.sanity1_testsuite.HomePageValidation"/>
+      <class name="com.vedantu.test.sanity1_testsuite.AdminLogin"/>
+     <class name="com.vedantu.test.sanity1_testsuite.TeacherLogin"/>
+      <class name="com.vedantu.test.sanity1_testsuite.StudentLogin"/>
+      <class name="com.vedantu.test.sanity1_testsuite.Signup"/>
+     <class name="com.vedantu.test.sanity1_testsuite.ListUsersSession"/>
+     
+     
+      <class name="com.vedantu.test.sanity1_testsuite.TakeSession"/>  
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="640.97" tests="13" errors="0" skipped="0" failures="7">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.65-b01"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/kirankumar/Documents/workspace/Automation Backup/veta/rdxtest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/kirankumar/Documents/workspace/Automation Backup/veta/rdxtest"/>
+    <property name="java.runtime.version" value="1.8.0_65-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/3z/bnmgs23j29b9f2p1n2w3nxv80000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/kirankumar/Documents/workspace/Automation Backup/veta/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf1994217690098279881.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/kirankumar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11.1"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/kirankumar"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="kirankumar"/>
+    <property name="java.class.path" value="/Users/kirankumar/Documents/Eclipse/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_65"/>
+    <property name="java.ext.dirs" value="/Users/kirankumar/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/kirankumar/Documents/workspace/Automation Backup/veta/rdxtest/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="HomePageValidations" classname="com.vedantu.test.sanity1_testsuite.HomePageValidation" time="38.8"/>
+  <testcase name="AdministartorLogin" classname="com.vedantu.test.sanity1_testsuite.AdminLogin" time="57.967"/>
+  <testcase name="TeacherLoginTest" classname="com.vedantu.test.sanity1_testsuite.TeacherLogin" time="76.939"/>
+  <testcase name="StudentLoginTest" classname="com.vedantu.test.sanity1_testsuite.StudentLogin" time="73.255"/>
+  <testcase name="GeneralSignup" classname="com.vedantu.test.sanity1_testsuite.Signup" time="92.561"/>
+  <testcase name="ListUserSchedule" classname="com.vedantu.test.sanity1_testsuite.ListUsersSession" time="89.838">
+    <failure message="Element not found in the cache - perhaps the page has changed since it was looked up&#10;Command duration or timeout: 30.09 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;&#10;System info: host: &apos;45.112.138-broadband.acttv.in&apos;, ip: &apos;192.168.0.66&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.1&apos;, java.version: &apos;1.8.0_65&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: a4521531-80a9-c640-acad-e4b3785278f3" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 30.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '45.112.138-broadband.acttv.in', ip: '192.168.0.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a4521531-80a9-c640-acad-e4b3785278f3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:121)
+	at com.vedantu.test.sanity1_testsuite.ListUsersSession.ListUserSchedule(ListUsersSession.java:37)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '45.112.138-broadband.acttv.in', ip: '192.168.0.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:9351)
+	at <anonymous class>.Utils.getElementAt(file:///var/folders/3z/bnmgs23j29b9f2p1n2w3nxv80000gn/T/anonymous4352716331799793605webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8978)
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/3z/bnmgs23j29b9f2p1n2w3nxv80000gn/T/anonymous4352716331799793605webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9979)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/3z/bnmgs23j29b9f2p1n2w3nxv80000gn/T/anonymous4352716331799793605webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3z/bnmgs23j29b9f2p1n2w3nxv80000gn/T/anonymous4352716331799793605webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/3z/bnmgs23j29b9f2p1n2w3nxv80000gn/T/anonymous4352716331799793605webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+]]></failure>
+    <system-out><![CDATA[Administrator Login is Successful
+]]></system-out>
+  </testcase>
+  <testcase name="ListUserSchedule" classname="com.vedantu.test.sanity1_testsuite.ListUsersSession" time="43.35">
+    <failure message="Element not found in the cache - perhaps the page has changed since it was looked up&#10;Command duration or timeout: 30.13 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;&#10;System info: host: &apos;45.112.138-broadband.acttv.in&apos;, ip: &apos;192.168.0.66&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.1&apos;, java.version: &apos;1.8.0_65&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: ea021a2e-ac90-b748-8520-0b478f39acca" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 30.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '45.112.138-broadband.acttv.in', ip: '192.168.0.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ea021a2e-ac90-b748-8520-0b478f39acca
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:121)
+	at com.vedantu.test.sanity1_testsuite.ListUsersSession.ListUserSchedule(ListUsersSession.java:37)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '45.112.138-broadband.acttv.in', ip: '192.168.0.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:9351)
+	at <anonymous class>.Utils.getElementAt(file:///var/folders/3z/bnmgs23j29b9f2p1n2w3nxv80000gn/T/anonymous4977114671217669760webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8978)
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/3z/bnmgs23j29b9f2p1n2w3nxv80000gn/T/anonymous4977114671217669760webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9979)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/3z/bnmgs23j29b9f2p1n2w3nxv80000gn/T/anonymous4977114671217669760webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3z/bnmgs23j29b9f2p1n2w3nxv80000gn/T/anonymous4977114671217669760webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/3z/bnmgs23j29b9f2p1n2w3nxv80000gn/T/anonymous4977114671217669760webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+]]></failure>
+    <system-out><![CDATA[Following test is failing====ListUserSchedule
+Retrying the test Count is=== 1
+Administrator Login is Successful
+]]></system-out>
+  </testcase>
+  <testcase name="ListUserSchedule" classname="com.vedantu.test.sanity1_testsuite.ListUsersSession" time="91.162">
+    <failure message="Element not found in the cache - perhaps the page has changed since it was looked up&#10;Command duration or timeout: 30.27 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;&#10;System info: host: &apos;45.112.138-broadband.acttv.in&apos;, ip: &apos;192.168.0.66&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.1&apos;, java.version: &apos;1.8.0_65&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: df772704-3422-144f-b8d4-3a4e6d7de13f" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 30.27 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '45.112.138-broadband.acttv.in', ip: '192.168.0.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: df772704-3422-144f-b8d4-3a4e6d7de13f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:121)
+	at com.vedantu.test.sanity1_testsuite.ListUsersSession.ListUserSchedule(ListUsersSession.java:37)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '45.112.138-broadband.acttv.in', ip: '192.168.0.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:9351)
+	at <anonymous class>.Utils.getElementAt(file:///var/folders/3z/bnmgs23j29b9f2p1n2w3nxv80000gn/T/anonymous8314250186969216186webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8978)
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/3z/bnmgs23j29b9f2p1n2w3nxv80000gn/T/anonymous8314250186969216186webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9979)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/3z/bnmgs23j29b9f2p1n2w3nxv80000gn/T/anonymous8314250186969216186webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/3z/bnmgs23j29b9f2p1n2w3nxv80000gn/T/anonymous8314250186969216186webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/3z/bnmgs23j29b9f2p1n2w3nxv80000gn/T/anonymous8314250186969216186webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+]]></failure>
+    <system-out><![CDATA[Following test is failing====ListUserSchedule
+Retrying the test Count is=== 2
+Administrator Login is Successful
+]]></system-out>
+  </testcase>
+  <testcase name="ListUserSchedule" classname="com.vedantu.test.sanity1_testsuite.ListUsersSession" time="80.803"/>
+  <testcase name="TakingSession" classname="com.vedantu.test.sanity1_testsuite.TakeSession" time="211.61">
+    <failure message="no such element&#10;  (Session info: chrome=47.0.2526.73)&#10;  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.11.1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 44.91 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;&#10;System info: host: &apos;45.112.138-broadband.acttv.in&apos;, ip: &apos;192.168.0.66&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.1&apos;, java.version: &apos;1.8.0_65&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=/var/folders/3z/bnmgs23j29b9f2p1n2w3nxv80000gn/T/.org.chromium.Chromium.DNoxFk}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=47.0.2526.73, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: c153670775916f2cd83385c7605b7eae&#10;*** Element info: {Using=xpath, value=//a[@title=&apos;My Profile&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=47.0.2526.73)
+  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.11.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 44.91 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '45.112.138-broadband.acttv.in', ip: '192.168.0.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=/var/folders/3z/bnmgs23j29b9f2p1n2w3nxv80000gn/T/.org.chromium.Chromium.DNoxFk}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=47.0.2526.73, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c153670775916f2cd83385c7605b7eae
+*** Element info: {Using=xpath, value=//a[@title='My Profile']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at com.vedantu.test.sanity1_testsuite.TakeSession.TakingSession(TakeSession.java:101)
+</failure>
+    <system-out><![CDATA[Student Login is Succesful
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver (v2.9.248307) on port 45453
+]]></system-err>
+  </testcase>
+  <testcase name="TakingSession" classname="com.vedantu.test.sanity1_testsuite.TakeSession" time="155.755">
+    <failure message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@title=&apos;My Profile&apos;]&quot;}&#10;Command duration or timeout: 30.07 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;&#10;System info: host: &apos;45.112.138-broadband.acttv.in&apos;, ip: &apos;192.168.0.66&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.1&apos;, java.version: &apos;1.8.0_65&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: f2fad54a-ed9c-7449-bd22-4a7b86654529&#10;*** Element info: {Using=xpath, value=//a[@title=&apos;My Profile&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@title='My Profile']"}
+Command duration or timeout: 30.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '45.112.138-broadband.acttv.in', ip: '192.168.0.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=42.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f2fad54a-ed9c-7449-bd22-4a7b86654529
+*** Element info: {Using=xpath, value=//a[@title='My Profile']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at com.vedantu.test.sanity1_testsuite.TakeSession.TakingSession(TakeSession.java:95)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[@title='My Profile']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '45.112.138-broadband.acttv.in', ip: '192.168.0.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/3z/bnmgs23j29b9f2p1n2w3nxv80000gn/T/anonymous8720174511189659467webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/3z/bnmgs23j29b9f2p1n2w3nxv80000gn/T/anonymous8720174511189659467webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:621)
+]]></failure>
+    <system-out><![CDATA[Following test is failing====TakingSession
+Retrying the test Count is=== 1
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver (v2.9.248307) on port 5119
+]]></system-err>
+  </testcase>
+  <testcase name="TakingSession" classname="com.vedantu.test.sanity1_testsuite.TakeSession" time="225.94">
+    <failure message="no such element&#10;  (Session info: chrome=47.0.2526.73)&#10;  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.11.1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 59.22 seconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;&#10;System info: host: &apos;45.112.138-broadband.acttv.in&apos;, ip: &apos;192.168.0.66&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.1&apos;, java.version: &apos;1.8.0_65&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=/var/folders/3z/bnmgs23j29b9f2p1n2w3nxv80000gn/T/.org.chromium.Chromium.hNL59J}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=47.0.2526.73, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 25dde68ace44ada055d7107f168ab109&#10;*** Element info: {Using=xpath, value=//a[@title=&apos;My Profile&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element
+  (Session info: chrome=47.0.2526.73)
+  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.11.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 59.22 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '45.112.138-broadband.acttv.in', ip: '192.168.0.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=/var/folders/3z/bnmgs23j29b9f2p1n2w3nxv80000gn/T/.org.chromium.Chromium.hNL59J}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=47.0.2526.73, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 25dde68ace44ada055d7107f168ab109
+*** Element info: {Using=xpath, value=//a[@title='My Profile']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at com.vedantu.test.sanity1_testsuite.TakeSession.TakingSession(TakeSession.java:101)
+</failure>
+    <system-out><![CDATA[Following test is failing====TakingSession
+Retrying the test Count is=== 2
+Student Login is Succesful
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver (v2.9.248307) on port 12293
+]]></system-err>
+  </testcase>
+  <testcase name="TakingSession" classname="com.vedantu.test.sanity1_testsuite.TakeSession" time="156.295">
+    <failure message="unknown error: Element is not clickable at point (516, 613). Other element would receive the click: &lt;div class=&quot;vpopupWrapper nonner&quot; id=&quot;v-popup&quot; style=&quot;opacity: 0; display: block;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=47.0.2526.73)&#10;  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.11.1 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 83 milliseconds&#10;Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;&#10;System info: host: &apos;45.112.138-broadband.acttv.in&apos;, ip: &apos;192.168.0.66&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.1&apos;, java.version: &apos;1.8.0_65&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=/var/folders/3z/bnmgs23j29b9f2p1n2w3nxv80000gn/T/.org.chromium.Chromium.eX2RV1}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=47.0.2526.73, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 83f67e4f34eea9c4dc12f97fa3c2140a" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (516, 613). Other element would receive the click: <div class="vpopupWrapper nonner" id="v-popup" style="opacity: 0; display: block;">...</div>
+  (Session info: chrome=47.0.2526.73)
+  (Driver info: chromedriver=2.9.248307,platform=Mac OS X 10.11.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 83 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: '45.112.138-broadband.acttv.in', ip: '192.168.0.66', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=/var/folders/3z/bnmgs23j29b9f2p1n2w3nxv80000gn/T/.org.chromium.Chromium.eX2RV1}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=47.0.2526.73, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 83f67e4f34eea9c4dc12f97fa3c2140a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.vedantu.test.sanity1_testsuite.TakeSession.TakingSession(TakeSession.java:87)
+]]></failure>
+    <system-out><![CDATA[Following test is failing====TakingSession
+Retrying the test Count is=== 3
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver (v2.9.248307) on port 16226
+]]></system-err>
+  </testcase>
+</testsuite>

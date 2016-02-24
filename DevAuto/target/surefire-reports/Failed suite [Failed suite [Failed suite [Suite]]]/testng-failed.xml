@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]]">
+  <test name="Test(failed)(failed)(failed)(failed)">
+    <classes>
+      <class name="com.vedantu.test.sanity1_testsuite.TakeSession">
+        <methods>
+          <include name="TakingSession"/>
+        </methods>
+      </class> <!-- com.vedantu.test.sanity1_testsuite.TakeSession -->
+    </classes>
+  </test> <!-- Test(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]] -->
